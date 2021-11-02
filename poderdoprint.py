@@ -1,0 +1,6 @@
+nome = input('Qual é o seu nome? ')
+print('Prazer em te conhecer  escrevendo seu nome em 20 espaços {:20}!'.format(nome))
+print('Prazer em te conhecer  escrevendo alinhando seu nome a direita em 20 espaços {:>20}!'.format(nome))
+print('Prazer em te conhecer  escrevendo alinhando seu nome a esquerda em 20 espaços {:<20}!'.format(nome))
+print('Prazer em te conhecer  escrevendo seu nome centralizado em 20 espaços {:^20}!'.format(nome))
+print('Prazer em te conhecer  escrevendo seu nome centralizado em 20 espaços colocando sinais de iguais em volta {:=^20}!'.format(nome))
