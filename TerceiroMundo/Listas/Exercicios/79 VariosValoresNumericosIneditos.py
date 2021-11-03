@@ -9,7 +9,7 @@ while True:
         valores.append(num)
         print('Valor adicionado com sucesso...')
     else:
-          print('Valor duplicado! Nõ será adicionado ...')
+          print('Valor duplicado! Não será adicionado ...')
     resp = str(input('Deseja continuar [S/N]  ')).strip().upper()
     if resp in 'Nn':
        break
