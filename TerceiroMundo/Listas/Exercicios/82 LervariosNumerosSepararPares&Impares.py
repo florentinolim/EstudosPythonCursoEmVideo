@@ -10,11 +10,13 @@ while True:
     lista.append(n)
     resp = str(input('Deseja continuar [S/N]')).strip().upper()
     if resp == 'N':
-        if n % 2 == 0:
-            listpar.insert(n)
-        else:
-            listimpar.insert(n)
         break
+for i, v in enumerate(lista):
+    if v % 2 == 0:
+        listpar.append(v)
+    elif v % 2 == 1:
+        listimpar.append(v)
+
 print(f'Total de numeros da lista{lista}')
 print(f'Numeros pares {listpar}')
 print(f'Numeros impares{listimpar}')
