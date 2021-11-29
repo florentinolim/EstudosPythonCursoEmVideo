@@ -5,7 +5,7 @@ No final, tudo isso será guardado em um dicionário, incluindo o total de gols 
 jogador = dict()
 partidas = list()
 jogador['nome'] = str(input('Nome do jogador: ' ))
-tot = int(input(f'Quantas partidas {jogador["nome"]} jogou? :' ))
+tot = int(input(f'Quantas partidas o {jogador["nome"]} jogou? :' ))
 for c in range(0, tot):
     partidas. append(int(input(f'    Quantos gols na partida {c+1}?   ')))
 jogador['gols' ] = partidas[:]

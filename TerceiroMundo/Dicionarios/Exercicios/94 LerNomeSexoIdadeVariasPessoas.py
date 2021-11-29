@@ -10,7 +10,7 @@ pessoa = dict()
 soma = media =0
 while True:
     pessoa.clear()
-    pessoa['nome'] = str(input('Nome:  '))
+    pessoa['nome'] = str(input('Nome da pessoa:  '))
     while True:
        pessoa['sexo'] = str(input('Sexo: [M/F] ')).upper()[0]
        if pessoa['sexo'] in 'M|F':
