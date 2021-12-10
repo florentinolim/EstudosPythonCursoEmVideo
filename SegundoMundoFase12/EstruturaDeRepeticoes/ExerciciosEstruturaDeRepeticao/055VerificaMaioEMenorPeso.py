@@ -1,6 +1,6 @@
 #Faça um programa que leia o peso de 5 pessoas.
 # No final, mostre qual foi o maior e o menor pesos lidos.
-<<<<<<< HEAD
+
 maior = 0
 menor = 0
 for p in range(1, 6):
@@ -16,10 +16,8 @@ for p in range(1, 6):
 print('O maior peso lido foi de {}kg'.format(maior))
 print('O menor peso lido foi de {}kg'.format(menor))
 
-
-=======
-for p in range(1, 4):
+for p in range(1, 6):
     peso = int(input('Digite o peso do {}ºmalandro: Kg '.format(p)))
     print(peso)
->>>>>>> 5d638dd84c52c20797d30af8980348145d9e0176
+
 
